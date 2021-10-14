@@ -1,0 +1,45 @@
+@import '~antd/lib/style/themes/default.less';
+
+.app {
+  :global {
+    .ant-row {
+      margin-bottom: 10px;
+    }
+
+    .ant-input-number {
+      width: 100%;
+    }
+  }
+}
+
+.active {
+  background: #0092ff !important;
+  color: #fff;
+}
+
+.tabsItem {
+
+
+  &>div {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    background: #ebebeb;
+    border-radius: 4px;
+
+    &:hover {
+      .active
+    }
+  }
+}
+
+.panel {
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+
+  .handle {
+    text-align: center;
+  }
+}
